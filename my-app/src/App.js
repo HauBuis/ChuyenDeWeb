@@ -1,11 +1,11 @@
 import ShoppingCart from "./Shopping";
 
 function App() {
-  return (
+  return(
     <div>
       <ShoppingCart />
     </div>
-  );
+  )
 }
 
 export default App;
