@@ -77,10 +77,10 @@ export default function ShoppingCart() {
             min="0"
            step="1"
            onChange={(e) => {
-          //  const value = e.target.value;
+           const value = e.target.value;
 
-          //  // Không cho nhập số âm
-          //   if (value < 0) return;
+           // Không cho nhập số âm
+            if (value < 0) return;
 
            setPrice(value);
   }}
